@@ -122,8 +122,8 @@ begin
 -------------------------------------------------------
     ram12_ins : ram12
         port map(
-            do   => sys_in_s,
-            di   => da_1_s,
+            do   => da_1_s,
+            di   => sys_in_s,
             addr => addr_in_s,
             we   => wr_in_s,
             load => load,
